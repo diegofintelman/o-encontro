@@ -151,7 +151,7 @@ img{user-select:none;-webkit-user-drag:none}
 /* ============================================================ 04 LIVIA */
 .livia{min-height:100vh;display:grid;grid-template-columns:minmax(0,44fr) minmax(0,56fr);align-items:center}
 .livia__ph{margin:0;height:100vh;height:100svh;position:sticky;top:0;overflow:hidden;z-index:2}
-.livia__ph img{width:100%;height:calc(100% + 14vh);object-fit:cover;object-position:48% 30%;margin-top:-4vh}
+.livia__ph img{width:100%;height:calc(100% + 14vh);object-fit:cover;object-position:50% 20%;margin-top:-4vh}
 .livia__txt{position:relative;z-index:4;padding:14vh var(--gut) 14vh clamp(2.5rem,6vw,8rem);display:flex;flex-direction:column;gap:clamp(1.6rem,3.6vh,2.8rem)}
 .livia__txt .h-it{max-width:15ch}
 .inv{display:flex;align-items:center;gap:1.6rem;margin-top:1.4rem}
@@ -353,3 +353,15 @@ img{user-select:none;-webkit-user-drag:none}
   .garden__fx{display:none}
   .cards > li{transform:none;transition-duration:.2s}
 }
+
+/* v7: conteúdo completo */
+.guide__pre{margin:0 auto clamp(1.8rem,4vh,3rem);max-width:52ch;text-align:center}
+.day li{display:grid;grid-template-columns:5.2em 1fr;column-gap:.7rem;align-items:baseline;padding-left:0}
+.day li::before{display:none}
+.day li time{font-weight:600;font-size:.92em;letter-spacing:.01em;font-variant-numeric:lining-nums;color:#6E7856;line-height:1.25}
+.day li span{display:flex;flex-direction:column}
+.qb{margin:0}
+.qb figcaption{margin-top:.8rem;padding-left:clamp(1.1rem,2.4vw,2.6rem);display:flex;flex-direction:column;gap:.7rem}
+.qb__cap{font-style:italic;font-weight:500;font-size:clamp(1.15rem,1rem + .4vw,1.5rem);color:var(--ink)}
+.qb__sig{display:flex;align-items:center;gap:1rem}
+@media (max-width:860px){.day li{grid-template-columns:6.4em 1fr}}

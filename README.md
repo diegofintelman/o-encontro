@@ -27,7 +27,7 @@ js/site.js            peças autorais: luz da janela, abertura do convite,
                       encontro dos círculos, sol do fim de semana, jardim vivo
 assets/bg             papéis, camadas de sombra de eucalipto, jardim 4K
 assets/botanic        eucalipto e flores em WebP com transparência
-assets/img            fotos (Livia, Luciana, fazenda, práticas)
+assets/img            fotos (Livia, Lu Cristina, fazenda, práticas)
 assets/brand          logo vetorizada, favicon, imagem de compartilhamento
 assets/fonts          Cormorant Garamond
 pdf/                  convite em PDF (horizontal e vertical para celular)
